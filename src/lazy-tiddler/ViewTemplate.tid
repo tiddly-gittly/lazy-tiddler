@@ -1,4 +1,5 @@
 title: $:/plugins/oflg/lazy-tiddler/ViewTemplate
+code-body: yes
 
 <!-- modified from https://tiddlywiki.com/plugins/tiddlywiki/dynaview/#%24%3A%2Fcore%2Fui%2FViewTemplate -->
 \whitespace trim
