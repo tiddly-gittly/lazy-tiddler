@@ -17,7 +17,7 @@ type: text/vnd.tiddlywiki
 
 !! 其他
 
-!! 获取视野中的条目的方法
+!!! 获取视野中的条目的方法
 
 使用筛选器 `[prefix[$:/temp/lazyTiddler/]text[1]removeprefix[$:/temp/lazyTiddler/]]`，以下为`text[]`中数字的含义：
 
@@ -35,7 +35,7 @@ Lazy loading of the tiddler in StoryRiver.
 
 !! Installation
 
-@@color:green;It is recommended to use the [[Community Plugin Library|https://tiddly-gittly.github.io/TiddlyWiki-CPL/#oflg%2FFishing%20Analysis:%5B%5Boflg%2FFishing%20Analysis%5D%5D%20Gk0Wk%2Fecharts]] to install it and get updates.@@ You can also drag and drop <$link to="$:/plugins/oflg/lazy-tiddler">Lazy Tiddler plugin</$link> to your TiddlyWiki. 
+@@color:green;It is recommended to use the [[Community Plugin Library|https://tiddly-gittly.github.io/TiddlyWiki-CPL/#oflg%2FFishing%20Analysis:%5B%5Boflg%2FFishing%20Analysis%5D%5D%20Gk0Wk%2Fecharts]] to install it and get updates.@@ You can also drag and drop <$link to="$:/plugins/oflg/lazy-tiddler">Lazy Tiddler plugin</$link> to your TiddlyWiki.
 
 !! Usage
 !!! Methods to get the tiddler in the view
