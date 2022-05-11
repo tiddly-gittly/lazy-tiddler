@@ -1,5 +1,5 @@
 created: 20220426154809325
-modified: 20220511135055742
+modified: 20220511142658292
 title: Index
 type: text/vnd.tiddlywiki
 
@@ -13,7 +13,11 @@ type: text/vnd.tiddlywiki
 
 !! 安装
 
-@@color:green;推荐使用[[中文社区插件源|https://tiddly-gittly.github.io/TiddlyWiki-CPL/]]进行安装和后续更新。@@也可以拖放<$link to="$:/plugins/oflg/lazy-tiddler">懒加载插件</$link>到你的 TiddlyWiki 里。
+@@color:green;推荐使用[[中文社区插件源|https://tiddly-gittly.github.io/TiddlyWiki-CPL/]]进行安装和后续更新@@，也可以拖放<$link to="$:/plugins/oflg/lazy-tiddler">懒加载插件</$link>到你的 TiddlyWiki 里。
+
+此外，此插件需要 <$link to="$:/plugins/tiddlywiki/dynaview" >Dynaview 插件</$link>依赖，可打开[[设置|$:/ControlPanel]]-''插件''中的{{$:/core/ui/ControlPanel/Plugins/AddPlugins}}，在'' TiddlyWiki 官方插件库''中搜索插件名安装。
+
+
 
 !! 其他
 
@@ -36,6 +40,8 @@ Lazy loading of the tiddler in StoryRiver.
 !! Installation
 
 @@color:green;It is recommended to use the [[Community Plugin Library|https://tiddly-gittly.github.io/TiddlyWiki-CPL/#oflg%2FFishing%20Analysis:%5B%5Boflg%2FFishing%20Analysis%5D%5D%20Gk0Wk%2Fecharts]] to install it and get updates.@@ You can also drag and drop <$link to="$:/plugins/oflg/lazy-tiddler">Lazy Tiddler plugin</$link> to your TiddlyWiki.
+
+Moreover, it depends on <$link to="$:/plugins/tiddlywiki/dynaview">Dynaview plugin</$link>. You can open ''Plugins'' in [[ControlPanel|$:/ControlPanel]] {{$:/core/ui/ControlPanel/Plugins/AddPlugins}}, then search plugin name to install it in ''Official TiddlyWiki Plugin Library''.
 
 !! Usage
 !!! Methods to get the tiddler in the view
