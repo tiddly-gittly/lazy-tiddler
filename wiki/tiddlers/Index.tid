@@ -1,33 +1,51 @@
 created: 20220426154809325
-modified: 20220426161150610
+modified: 20220511135055742
 title: Index
 type: text/vnd.tiddlywiki
 
-Change the language: {{$:/snippets/minilanguageswitcher}}
-
----
 
 <$list filter="[[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]]" variable="lang">
 <$list filter="[<lang>search[zh]]">
 
-!! 这是什么
+!! 简介
 
-''Modern.TiddlyDev'' 是基于现代前端技术栈打造、面向TiddlyWIki插件开发爱好者的一个''All-In-One''开发环境，支持如下功能：
+懒加载故事河里的条目。
 
-* 同时开发多款插件；
-* 支持`.ts`, `.tsx`, `.jsx`, `.mjs`代码工程构建，名称与入口数量无限制（只要符合规范）；
-* 基于[[esbuild|https://esbuild.github.io/]]和[[chokidar|https://github.com/paulmillr/chokidar]]的独立构建与运行时构建预览系统，可实时增量编译插件，使用起来就像React和Vue那样！
-* 插件文档Wiki(也就是现在这个页面)，并支持一键构建静态页面(核心JS分离与不分离两种版本)和一键生成插件库；
-* 基于[[TW5-Typed|https://github.com/tiddly-gittly/TW5-Typed]]的TiddlyWiki API文档，填补`$tw`没有API说明与补全的短板。
+!! 安装
 
-别担心，虽然这里有很多工作，但是对你来讲，它就是开箱即用的。快来使用它，步入现代化的TiddlyWiki插件开发之旅吧！
+@@color:green;推荐使用[[中文社区插件源|https://tiddly-gittly.github.io/TiddlyWiki-CPL/]]进行安装和后续更新。@@也可以拖放<$link to="$:/plugins/oflg/lazy-tiddler">懒加载插件</$link>到你的 TiddlyWiki 里。
 
-!! 开始使用
+!! 其他
+
+!! 获取视野中的条目的方法
+
+使用筛选器 `[prefix[$:/temp/lazyTiddler/]text[1]removeprefix[$:/temp/lazyTiddler/]]`，以下为`text[]`中数字的含义：
+
+* 空 -- 未进入视野
+* `0` -- 将离开视野
+* `1` -- 在视野旁
+* `2` -- 在视野中
 
 </$list>
 <$list filter="[<lang>!search[zh]]">
 
-!! Coming soon...
+!! Introduction
+
+Lazy loading of the tiddler in StoryRiver.
+
+!! Installation
+
+@@color:green;It is recommended to use the [[Community Plugin Library|https://tiddly-gittly.github.io/TiddlyWiki-CPL/#oflg%2FFishing%20Analysis:%5B%5Boflg%2FFishing%20Analysis%5D%5D%20Gk0Wk%2Fecharts]] to install it and get updates.@@ You can also drag and drop <$link to="$:/plugins/oflg/lazy-tiddler">Lazy Tiddler plugin</$link> to your TiddlyWiki. 
+
+!! Usage
+!!! Methods to get the tiddler in the view
+
+Using the filter `[prefix[$:/temp/lazyTiddler/]text[1]removeprefix[$:/temp/lazyTiddler/]]`, the following are the meanings of the numbers in `text[]`:
+
+* ''Blank/missing'' -- The tiddler has not yet been scrolled into view
+* ''0'' -- The tiddler has been scrolled into view, but subsequently scrolled out of view
+* ''1'' -- The tiddler is near the viewport
+* ''2'' -- The tiddler is partially or wholly within the viewport
 
 </$list>
 </$list>

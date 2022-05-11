@@ -1,0 +1,10 @@
+{
+  "title": "$:/plugins/oflg/lazy-tiddler",
+  "author": "oflg",
+  "description": "Lazy load tiddler",
+  "dependents": "$:/plugins/tiddlywiki/dynaview",
+  "core-version": ">=5.2.22",
+  "plugin-type": "plugin",
+  "version": "0.0.1",
+  "list": "readme"
+}
