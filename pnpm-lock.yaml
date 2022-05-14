@@ -36,7 +36,7 @@ specifiers:
   get-port: 6.1.2
   html-minifier-terser: 7.0.0-alpha.2
   prettier: 2.6.2
-  prettier-eslint: 14.0.3
+  prettier-eslint: 14.1.0
   tiddlywiki: 5.2.2
   tslib: 2.4.0
   tw5-typed: 0.2.8
@@ -85,7 +85,7 @@ devDependencies:
   get-port: 6.1.2
   html-minifier-terser: 7.0.0-alpha.2
   prettier: registry.npmmirror.com/prettier/2.6.2
-  prettier-eslint: 14.0.3
+  prettier-eslint: 14.1.0
   tslib: 2.4.0
   tw5-typed: 0.2.8
   typescript: 4.6.4
@@ -1400,6 +1400,13 @@ packages:
 
   /@types/eslint/8.4.1:
     resolution: {integrity: sha512-GE44+DNEyxxh2Kc6ro/VkIj+9ma0pO0bwv9+uHSyBrikYOHr8zYcdPvnBOp1aw8s+CjRvuSx7CyWqRrNFQ59mA==}
+    dependencies:
+      '@types/estree': 0.0.51
+      '@types/json-schema': 7.0.11
+    dev: true
+
+  /@types/eslint/8.4.2:
+    resolution: {integrity: sha512-Z1nseZON+GEnFjJc04sv4NSALGjhFwy6K0HXt7qsn5ArfAKtb63dXNJHf+1YW6IpOIYRBGUbu3GwJdj8DGnCjA==}
     dependencies:
       '@types/estree': 0.0.51
       '@types/json-schema': 7.0.11
@@ -3907,10 +3914,12 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier-eslint/14.0.3:
-    resolution: {integrity: sha512-TB2x315NUG5ld0tHBBpPuaF4b2VMJWR0hFKDQGrAEFFO17YppZx8iI0gtpVncpyukhd0zEFOfU3GSYqKzf0DeA==}
+  /prettier-eslint/14.1.0:
+    resolution: {integrity: sha512-K0TRVaAUXtI5xz1ZaVZfvGMmunDNyIGXFkE845hVl6FzSxzRN9E03YmK3IiapcRFv3w4PyAL25LIPsy2sRz2tw==}
     engines: {node: '>=10.0.0'}
     dependencies:
+      '@types/eslint': 8.4.2
+      '@types/prettier': 2.6.0
       '@typescript-eslint/parser': 5.23.0_t725usgvqspm5woeqpaxbfp2qu
       common-tags: 1.8.2
       dlv: 1.1.3
