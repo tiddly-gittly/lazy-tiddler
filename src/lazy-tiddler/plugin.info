@@ -5,6 +5,6 @@
   "dependents": "$:/plugins/tiddlywiki/dynaview",
   "core-version": ">=5.2.22",
   "plugin-type": "plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "list": "readme"
 }
