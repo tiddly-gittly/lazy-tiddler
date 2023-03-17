@@ -10,7 +10,7 @@ specifiers:
   '@typescript-eslint/parser': 5.23.0
   browserslist: 4.20.3
   chokidar: 3.5.3
-  clean-css: 5.2.4
+  clean-css: 5.3.2
   esbuild: 0.14.39
   esbuild-plugin-browserslist: 0.4.9
   eslint: 8.14.0
@@ -59,7 +59,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.23.0_t725usgvqspm5woeqpaxbfp2qu
   browserslist: registry.npmmirror.com/browserslist/4.20.3
   chokidar: 3.5.3
-  clean-css: 5.2.4
+  clean-css: 5.3.2
   esbuild: 0.14.39
   esbuild-plugin-browserslist: registry.npmmirror.com/esbuild-plugin-browserslist/0.4.9_la36nhs3gcupkn2crlusxgxsia
   eslint: registry.npmmirror.com/eslint/8.14.0
@@ -2027,15 +2027,8 @@ packages:
     resolution: {integrity: sha512-5tK7EtrZ0N+OLFMthtqOj4fI2Jeb88C4CAZPu25LDVUgXJ0A3Js4PMGqrn0JU1W0Mh1/Z8wZzYPxqUrXeBboCQ==}
     dev: true
 
-  /clean-css/5.2.4:
-    resolution: {integrity: sha512-nKseG8wCzEuji/4yrgM/5cthL9oTDc5UOQyFMvW/Q53oP6gLH690o1NbuTh6Y18nujr7BxlsFuS7gXLnLzKJGg==}
-    engines: {node: '>= 10.0'}
-    dependencies:
-      source-map: 0.6.1
-    dev: true
-
-  /clean-css/5.3.0:
-    resolution: {integrity: sha512-YYuuxv4H/iNb1Z/5IbMRoxgrzjWGhOEFfd+groZ5dMCVkpENiMZmwspdrzBo9286JjM1gZJPAyL7ZIdzuvu2AQ==}
+  /clean-css/5.3.2:
+    resolution: {integrity: sha512-JVJbM+f3d3Q704rF4bqQ5UUyTtuJ0JRKNbTKVEeujCCBoMdkEi+V+e8oktO9qGQNSvHrFTM6JZRXrUvGR1czww==}
     engines: {node: '>= 10.0'}
     dependencies:
       source-map: 0.6.1
@@ -3068,7 +3061,7 @@ packages:
     hasBin: true
     dependencies:
       camel-case: 4.1.2
-      clean-css: 5.3.0
+      clean-css: 5.3.2
       commander: 9.2.0
       entities: 3.0.1
       param-case: 3.0.4
@@ -3919,7 +3912,7 @@ packages:
     engines: {node: '>=10.0.0'}
     dependencies:
       '@types/eslint': 8.4.2
-      '@types/prettier': 2.6.0
+      '@types/prettier': 2.6.1
       '@typescript-eslint/parser': 5.23.0_t725usgvqspm5woeqpaxbfp2qu
       common-tags: 1.8.2
       dlv: 1.1.3
@@ -4290,7 +4283,7 @@ packages:
     dev: true
 
   /source-map/0.5.7:
-    resolution: {integrity: sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=}
+    resolution: {integrity: sha512-LbrmJOMUSdEVxIKvdcJzQC+nQhe8FUZQTXQy6+I75skNgn3OoQ0DZA8YnFa7gp8tqtL3KPf1kmo0R5DoApeSGQ==}
     engines: {node: '>=0.10.0'}
     dev: true
 
