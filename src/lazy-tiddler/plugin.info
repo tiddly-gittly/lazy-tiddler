@@ -1,10 +1,10 @@
 {
   "title": "$:/plugins/oflg/lazy-tiddler",
   "author": "oflg",
-  "description": "Lazy load tiddler",
+  "description": "A ViewTemplate that improve performance by hiding tiddlers when out of view.",
   "dependents": "$:/plugins/tiddlywiki/dynaview",
   "core-version": ">=5.2.22",
   "plugin-type": "plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "list": "readme"
 }
